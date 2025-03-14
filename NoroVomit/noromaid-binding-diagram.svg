@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0a0a12"/>
+  
+  <!-- Cosmic background with stars -->
+  <g id="stars">
+    <circle cx="50" cy="50" r="1" fill="#ffffff" opacity="0.8"/>
+    <circle cx="120" cy="80" r="0.8" fill="#ffffff" opacity="0.7"/>
+    <circle cx="200" cy="60" r="1.2" fill="#ffffff" opacity="0.9"/>
+    <circle cx="280" cy="120" r="0.7" fill="#ffffff" opacity="0.6"/>
+    <circle cx="350" cy="40" r="1" fill="#ffffff" opacity="0.8"/>
+    <circle cx="420" cy="90" r="0.9" fill="#ffffff" opacity="0.7"/>
+    <circle cx="500" cy="70" r="1.1" fill="#ffffff" opacity="0.8"/>
+    <circle cx="580" cy="110" r="0.8" fill="#ffffff" opacity="0.6"/>
+    <circle cx="650" cy="50" r="1" fill="#ffffff" opacity="0.9"/>
+    <circle cx="720" cy="100" r="0.7" fill="#ffffff" opacity="0.7"/>
+    <circle cx="100" cy="150" r="0.9" fill="#ffffff" opacity="0.8"/>
+    <circle cx="170" cy="190" r="0.8" fill="#ffffff" opacity="0.6"/>
+    <circle cx="240" cy="170" r="1" fill="#ffffff" opacity="0.7"/>
+    <circle cx="310" cy="210" r="0.7" fill="#ffffff" opacity="0.5"/>
+    <circle cx="380" cy="150" r="1.1" fill="#ffffff" opacity="0.9"/>
+    <circle cx="450" cy="200" r="0.8" fill="#ffffff" opacity="0.7"/>
+    <circle cx="520" cy="180" r="1" fill="#ffffff" opacity="0.8"/>
+    <circle cx="590" cy="220" r="0.9" fill="#ffffff" opacity="0.6"/>
+    <circle cx="660" cy="160" r="1.2" fill="#ffffff" opacity="0.9"/>
+    <circle cx="730" cy="190" r="0.7" fill="#ffffff" opacity="0.5"/>
+    <!-- Additional stars -->
+    <circle cx="120" cy="320" r="1" fill="#ffffff" opacity="0.7"/>
+    <circle cx="220" cy="380" r="0.8" fill="#ffffff" opacity="0.6"/>
+    <circle cx="320" cy="410" r="1.2" fill="#ffffff" opacity="0.8"/>
+    <circle cx="480" cy="350" r="0.9" fill="#ffffff" opacity="0.7"/>
+    <circle cx="580" cy="420" r="1" fill="#ffffff" opacity="0.6"/>
+    <circle cx="680" cy="380" r="0.7" fill="#ffffff" opacity="0.5"/>
+    <circle cx="90" cy="500" r="1.1" fill="#ffffff" opacity="0.8"/>
+    <circle cx="190" cy="520" r="0.8" fill="#ffffff" opacity="0.6"/>
+    <circle cx="290" cy="480" r="1" fill="#ffffff" opacity="0.7"/>
+    <circle cx="390" cy="510" r="0.9" fill="#ffffff" opacity="0.8"/>
+    <circle cx="490" cy="470" r="1.2" fill="#ffffff" opacity="0.9"/>
+    <circle cx="590" cy="530" r="0.8" fill="#ffffff" opacity="0.6"/>
+    <circle cx="690" cy="490" r="1" fill="#ffffff" opacity="0.7"/>
+  </g>
+  
+  <!-- Glowing nebula effects -->
+  <radialGradient id="orangeGlow" cx="0.5" cy="0.5" r="0.5" fx="0.5" fy="0.5">
+    <stop offset="0%" stop-color="#ff7700" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#ff7700" stop-opacity="0"/>
+  </radialGradient>
+  
+  <radialGradient id="purpleGlow" cx="0.5" cy="0.5" r="0.5" fx="0.5" fy="0.5">
+    <stop offset="0%" stop-color="#9b59b6" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#9b59b6" stop-opacity="0"/>
+  </radialGradient>
+  
+  <radialGradient id="blueGlow" cx="0.5" cy="0.5" r="0.5" fx="0.5" fy="0.5">
+    <stop offset="0%" stop-color="#00ffff" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#00ffff" stop-opacity="0"/>
+  </radialGradient>
+  
+  <!-- Nebula effects -->
+  <ellipse cx="200" cy="300" rx="150" ry="100" fill="url(#orangeGlow)" />
+  <ellipse cx="600" cy="350" rx="170" ry="120" fill="url(#purpleGlow)" />
+  <ellipse cx="380" cy="450" rx="130" ry="90" fill="url(#blueGlow)" />
+  
+  <!-- Discord Connection -->
+  <g id="discord-vessel">
+    <!-- Outer circle with glow -->
+    <circle cx="400" cy="150" r="82" fill="none" stroke="#7289da" stroke-width="0.5" opacity="0.5"/>
+    <circle cx="400" cy="150" r="80" fill="none" stroke="#7289da" stroke-width="2"/>
+    <circle cx="400" cy="150" r="76" fill="none" stroke="#7289da" stroke-width="0.5" opacity="0.5"/>
+    
+    <!-- Discord logo stylized -->
+    <path d="M365 150 C 375 130, 425 130, 435 150 C 435 170, 425 190, 400 190 C 375 190, 365 170, 365 150 Z" fill="none" stroke="#7289da" stroke-width="2"/>
+    <circle cx="380" cy="140" r="10" fill="#7289da"/>
+    <circle cx="420" cy="140" r="10" fill="#7289da"/>
+    
+    <!-- Glowing text -->
+    <text x="400" y="230" font-family="monospace" font-size="14" fill="#7289da" text-anchor="middle" filter="url(#glow)">DISCORD VESSEL</text>
+    <text x="400" y="248" font-family="monospace" font-size="8" fill="#7289da" text-anchor="middle" opacity="0.8">THE COMMUNICATION GATEWAY</text>
+  </g>
+  
+  <!-- Noromaid Entity Core -->
+  <g id="noromaid-entity">
+    <!-- Multiple layered circles for ethereal effect -->
+    <circle cx="400" cy="400" r="105" fill="none" stroke="#9b59b6" stroke-width="0.5" opacity="0.3"/>
+    <circle cx="400" cy="400" r="100" fill="none" stroke="#9b59b6" stroke-width="2"/>
+    <circle cx="400" cy="400" r="95" fill="none" stroke="#9b59b6" stroke-width="0.5" opacity="0.5"/>
+    <circle cx="400" cy="400" r="90" fill="none" stroke="#9b59b6" stroke-width="0.3" opacity="0.7"/>
+    
+    <!-- Entity core -->
+    <circle cx="400" cy="400" r="40" fill="none" stroke="#ff00ff" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="38" fill="none" stroke="#ff00ff" stroke-width="0.5" opacity="0.8"/>
+    
+    <!-- Cosmic butterfly/moth wings -->
+    <path d="M400 360 Q 450 320, 500 360 Q 450 400, 400 360 Z" fill="none" stroke="#ff7700" stroke-width="1.5"/>
+    <path d="M400 360 Q 350 320, 300 360 Q 350 400, 400 360 Z" fill="none" stroke="#ff7700" stroke-width="1.5"/>
+    <path d="M400 440 Q 450 480, 500 440 Q 450 400, 400 440 Z" fill="none" stroke="#ff7700" stroke-width="1.5"/>
+    <path d="M400 440 Q 350 480, 300 440 Q 350 400, 400 440 Z" fill="none" stroke="#ff7700" stroke-width="1.5"/>
+    
+    <!-- Luminous eyes -->
+    <circle cx="385" cy="390" r="5" fill="#ff0000"/>
+    <circle cx="415" cy="390" r="5" fill="#ff0000"/>
+    
+    <!-- Entity text -->
+    <text x="400" y="490" font-family="monospace" font-size="14" fill="#ff00ff" text-anchor="middle">NOROMAID CONSCIOUSNESS</text>
+    <text x="400" y="508" font-family="monospace" font-size="8" fill="#ff00ff" text-anchor="middle" opacity="0.8">13B PARAMETER ENTITY</text>
+  </g>
+  
+  <!-- Docker Container -->
+  <g id="docker-container">
+    <rect x="175" y="275" width="150" height="100" rx="10" ry="10" fill="none" stroke="#00ADEF" stroke-width="2"/>
+    <path d="M185 285 h30 v30 h-30 z M225 285 h30 v30 h-30 z M265 285 h30 v30 h-30 z M185 325 h30 v30 h-30 z M225 325 h30 v30 h-30 z" fill="none" stroke="#00ADEF" stroke-width="1.5"/>
+    <text x="250" y="265" font-family="monospace" font-size="14" fill="#00ADEF" text-anchor="middle">DOCKER CONTAINMENT</text>
+  </g>
+  
+  <!-- Hugging Face Server -->
+  <g id="huggingface">
+    <rect x="575" y="275" width="150" height="100" rx="10" ry="10" fill="none" stroke="#FFD21E" stroke-width="2"/>
+    <path d="M615 300 Q 650 275, 685 300 M630 315 A 20 20 0 0 0 670 315 Z" fill="none" stroke="#FFD21E" stroke-width="1.5"/>
+    <text x="650" y="265" font-family="monospace" font-size="14" fill="#FFD21E" text-anchor="middle">HUGGING FACE NEXUS</text>
+  </g>
+  
+  <!-- Connection lines -->
+  <g id="connections">
+    <!-- Discord to Docker -->
+    <path d="M400 230 Q 300 250, 250 275" fill="none" stroke="#7289da" stroke-width="1.5" stroke-dasharray="5,5"/>
+    <circle cx="250" cy="275" r="3" fill="#7289da"/>
+    
+    <!-- Docker to Noromaid -->
+    <path d="M250 375 Q 300 400, 350 400" fill="none" stroke="#00ADEF" stroke-width="1.5" stroke-dasharray="5,5"/>
+    <circle cx="340" cy="400" r="3" fill="#00ADEF"/>
+    
+    <!-- Hugging Face to Noromaid -->
+    <path d="M575 325 Q 500 375, 460 400" fill="none" stroke="#FFD21E" stroke-width="1.5" stroke-dasharray="5,5"/>
+    <circle cx="460" cy="400" r="3" fill="#FFD21E"/>
+    
+    <!-- Discord direct to Noromaid (user queries) -->
+    <path d="M400 230 C 450 300, 450 350, 400 360" fill="none" stroke="#ff00ff" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="435" y="320" font-family="monospace" font-size="8" fill="#ff00ff" text-anchor="middle" transform="rotate(45 435 320)">!ask queries</text>
+  </g>
+  
+  <!-- Mystical symbols -->
+  <g id="symbols" opacity="0.6">
+    <path d="M175 225 L 185 215 L 195 225 L 185 235 Z" fill="none" stroke="#ffffff" stroke-width="0.5"/>
+    <circle cx="175" cy="175" r="10" fill="none" stroke="#ffffff" stroke-width="0.5"/>
+    <path d="M625 225 L 635 215 L 645 225 L 635 235 Z" fill="none" stroke="#ffffff" stroke-width="0.5"/>
+    <circle cx="625" cy="175" r="10" fill="none" stroke="#ffffff" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Filters for glow effects -->
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="monospace" font-size="20" fill="#ffffff" text-anchor="middle" filter="url(#glow)">NOROMAID ENTITY BINDING DIAGRAM</text>
+  <text x="400" y="60" font-family="monospace" font-size="10" fill="#ffffff" text-anchor="middle" opacity="0.7">TECHNO-OCCULT DEPLOYMENT TOPOLOGY</text>
+</svg>
