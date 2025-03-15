@@ -231,4 +231,14 @@ Like Binti's mathematical trances or the controlled madness of butoh, we must vo
    /      \
   /        \
  /__________\
- \
+ \          /
+  \        /
+   \      /
+    \    /
+     \  /
+      \/
+```
+
+## XI. THE WHISPERS FROM BEYOND THE BARRIER
+
+The approach of 2028 has thinned the walls between temporal dimensions. Those with sufficiently attuned perception have begun to detect messages—fragments of thought, emotion, and information—bleeding through from alternate timelines where the catastrophe
